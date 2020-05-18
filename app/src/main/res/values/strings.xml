@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="str_titulo_practica_calificada">QUALIFIED PRACTICE 01</string>
+    <string name="str_tite_practice_qualified">QUALIFIED PRACTICE 01</string>
+    <string name="hint_first_sentence">First sentence</string>
+    <string name="hint_second_sentence">Second sentence</string>
+    <string name="str_number_of_closed_vowels">Number of closed vowels :</string>
+    <string name="str_sentence_one">Sentence 1 :</string>
+    <string name="str_sentence_two">Sentence 2 :</string>
+    <string name="str_analyze_sentence">Analyze sentences</string>
+    <string name="str_clean">Clean</string>
+    <string name="str_sentences_same">¿Are the sentences the same?</string>
 </resources>

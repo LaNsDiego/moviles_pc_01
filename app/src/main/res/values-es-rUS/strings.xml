@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Mi Aplicación</string>
-    <string name="str_titulo_practica_calificada">PRÁCTICA CALIFICADA 01</string>
+    <string name="str_tite_practice_qualified">PRÁCTICA CALIFICADA 01</string>
+    <string name="hint_first_sentence">Primera frase</string>
+    <string name="hint_second_sentence">Segunda frase</string>
+    <string name="str_number_of_closed_vowels">Cantidad de vocales cerradas:</string>
+    <string name="str_sentence_one">Frase 1 :</string>
+    <string name="str_sentence_two">Frase 2 :</string>
+    <string name="str_analyze_sentence">analizar frases</string>
+    <string name="str_clean">limpiar</string>
+    <string name="str_sentences_same">¿Las frases son iguales?</string>
+
 </resources>

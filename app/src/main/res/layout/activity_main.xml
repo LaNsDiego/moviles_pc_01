@@ -14,22 +14,23 @@
         android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/str_titulo_practica_calificada"
+        android:text="@string/str_tite_practice_qualified"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <EditText
         android:id="@+id/edt_primera_frase"
-        android:hint="Primera frase"
+        android:hint="@string/hint_first_sentence"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
         android:id="@+id/edt_segunda_frase"
         android:layout_marginTop="16dp"
-        android:hint="Segunda frase"
+        android:hint="@string/hint_second_sentence"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
@@ -38,7 +39,7 @@
         android:paddingLeft="4dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cantidad de vocales : "/>
+        android:text="@string/str_number_of_closed_vowels"/>
     <LinearLayout
         android:paddingLeft="4dp"
         android:layout_marginTop="20dp"
@@ -51,9 +52,9 @@
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Frase 1 : "/>
+                android:text="@string/str_sentence_one"/>
             <TextView
-
+                android:paddingLeft="12dp"
                 android:id="@+id/txv_cantidad_vocales_cerradas_f1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -65,8 +66,9 @@
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Frase 2 : "/>
+            android:text="@string/str_sentence_two"/>
             <TextView
+                android:paddingLeft="12dp"
                 android:id="@+id/txv_cantidad_vocales_cerradas_f2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -82,8 +84,9 @@
             android:paddingLeft="4dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="¿Las frases son iguales? "/>
+            android:text="@string/str_sentences_same"/>
         <TextView
+            android:paddingLeft="12dp"
             android:textStyle="bold"
             android:id="@+id/txv_frases_iguales"
             android:layout_width="wrap_content"
@@ -95,11 +98,11 @@
         android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="analizar frases"/>
+        android:text="@string/str_analyze_sentence"/>
     <Button
         android:id="@+id/btn_limpiar"
         android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="limpiar"/>
+        android:text="@string/str_clean"/>
 </LinearLayout>
